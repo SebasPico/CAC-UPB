@@ -1,5 +1,7 @@
 package domain;
 
+import java.util.Date;
+
 public class Appointment {
 
     private String id;
@@ -15,7 +17,7 @@ public class Appointment {
     }
 
     public Appointment() {
-        this.id = "id";
+        this.id = "";
         this.customer = null;
         this.date = null;
         this.description = "";
